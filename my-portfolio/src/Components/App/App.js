@@ -9,7 +9,9 @@ function App() {
       <header className="App-header">
         <div className="NavBar">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <p>Rajesh Reel, Navbar</p>
+          <div>Rajesh Reel</div>
+          <div>Navbar</div>
+          <div>DarkModeButton</div>
           {/* <a
           className="App-link"
           href="https://reactjs.org"
@@ -21,6 +23,7 @@ function App() {
         </div>
       </header>
       <main className="App-main">
+        <br />
         <div className="ColumnsForIntro">
           <div className="ColumnLeft">
             <h1>Hi, I am Rajesh,</h1>
@@ -51,6 +54,8 @@ function App() {
               imageUrl="https://allnvysbhq.cloudimg.io/v7/www.projectsmart.co.uk/img/project.png"
             />
           </div>
+          <p>Link to Projects page route</p>
+          <br />
         </div>
       </main>
       <footer className="App-footer">
@@ -109,8 +114,9 @@ function App() {
           </a>
         </ul>
         <p>Legal jargon here</p>
-        <p>Founded 2022</p>
+        <p>© 2022 Rajesh Reel</p>
         <p>All rights copyright trademark blah</p>
+        <p>SiteMap TODO</p>
         <br />
       </footer>
     </div>

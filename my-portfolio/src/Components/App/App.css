@@ -1,13 +1,12 @@
-/*
-CSS Variables
-*/
+/* CSS Variables */
 :root {
   --primary-background-color: aquamarine;
+  --center: center;
 }
 
 /* Main App */
 .App {
-  text-align: center;
+  text-align: var(--center);
 }
 
 .App-logo {
@@ -27,10 +26,19 @@ CSS Variables
   min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.NavBar {
+  display: flex;
+  text-align: center;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  justify-content: space-evenly;
 }
 
 /* Main Components */
@@ -56,6 +64,12 @@ CSS Variables
   margin-left: 100px;
 }
 
+.imageOfMe:hover {
+  transform: scale(1.05);
+  border-color: #282c34;
+  box-shadow: 0px 0px 15px 0px;
+}
+
 .ColumnsForIntro {
   display: flex;
   flex-direction: row;
@@ -75,8 +89,8 @@ CSS Variables
   min-height: 20vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: var(--center);
+  justify-content: var(--center);
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -84,8 +98,8 @@ CSS Variables
 .bottomofsiteSocials {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: var(--center);
+  justify-content: var(--center);
 }
 
 .bottomofsiteSocials .icon {
@@ -96,10 +110,14 @@ CSS Variables
   width: 5.5rem;
   line-height: 3.5rem;
   margin: 0 0.5rem;
-  text-align: center;
+  text-align: var(--center);
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: var(--center);
+  justify-content: var(--center);
+}
+
+.bottomofsiteSocials .icon:hover {
+  transform: scale(1.25);
 }
 
 .TwitterLogo {
