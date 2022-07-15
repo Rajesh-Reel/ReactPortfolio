@@ -2,6 +2,7 @@
 import imageOfMe from "../../imageOfMe.jpg";
 import "./App.css";
 import Cards from "../Cards/Cards.js";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
@@ -9,19 +10,12 @@ function App() {
       <header className="App-header">
         <div className="NavBar">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <div>Rajesh Reel</div>
-          <div>Navbar</div>
-          <div>DarkModeButton</div>
-          {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
+          <div className="NavContents">Rajesh Reel</div>
+          <div className="NavContents">Navbar</div>
+          <div className="NavContents">DarkModeButton</div>
         </div>
       </header>
+      <section className="deadSpace"></section>
       <main className="App-main">
         <br />
         <div className="ColumnsForIntro">

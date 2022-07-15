@@ -2,6 +2,8 @@
 :root {
   --primary-background-color: aquamarine;
   --center: center;
+  --border-style: groove;
+  border-style: ;
 }
 
 /* Main App */
@@ -22,6 +24,9 @@
 
 /* Header Components */
 .App-header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
@@ -39,6 +44,14 @@
   /* align-items: center; */
   /* justify-content: center; */
   justify-content: space-evenly;
+}
+.NavContents:hover {
+  text-decoration: underline;
+}
+
+/*  Section Components */
+.deadSpace {
+  min-height: 10vh;
 }
 
 /* Main Components */
@@ -58,7 +71,7 @@
   width: auto;
   border-radius: 50%;
   border-color: black;
-  border-style: double;
+  border-style: var(--border-style);
   /* align-items: center;
   justify-content: end; */
   margin-left: 100px;
@@ -105,6 +118,8 @@
 .bottomofsiteSocials .icon {
   background-color: var(--primary-background-color);
   border-radius: 50%;
+  border-color: black;
+  border-style: var(--border-style);
   display: block;
   height: 5.5rem;
   width: 5.5rem;
@@ -149,4 +164,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Scrollbar nonsense */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: red;
+}
+::-webkit-scrollbar-thumb {
+  background: blue;
 }
