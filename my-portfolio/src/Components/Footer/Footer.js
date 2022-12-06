@@ -57,10 +57,10 @@ function Footer() {
             />
           </a>
         </ul>
-        <p>Legal jargon here</p>
+        {/* <p>Legal jargon here</p> */}
         <p>© 2022 Rajesh Reel</p>
-        <p>All rights copyright trademark blah</p>
-        <p>SiteMap TODO</p>
+        {/* <p>All rights copyright trademark blah</p>
+        <p>SiteMap TODO</p> */}
         <br />
     </footer>
     )
