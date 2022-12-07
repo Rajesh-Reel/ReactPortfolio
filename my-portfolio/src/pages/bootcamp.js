@@ -3,7 +3,7 @@ import Footer from "../Components/Footer/Footer";
 
 function Bootcamp() {
     return(
-        <div>
+        <div className="App">
             <div>
                 <h1>School of Code</h1>
                 <p>I have very recently completed an intense 16 week long coding boot camp with the School of Code (cohort 12) and learned so many technologies and skills that I will happily take into my career going forwards. My current tech stack is the PERN (PostgreSQL, Express, React, Node.js) stack although I am happy to learn new languages as and when needed.</p>

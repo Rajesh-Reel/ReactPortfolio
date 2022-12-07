@@ -6,7 +6,7 @@ import Footer from "../Components/Footer/Footer";
 function Home() {
     return(
     <div className="App">
-      <section className="deadSpace"></section>
+      {/* <section className="deadSpace"></section> */}
       <main className="App-main">
         <br />
         <div className="ColumnsForIntro">
