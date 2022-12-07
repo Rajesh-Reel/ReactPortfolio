@@ -1,7 +1,8 @@
 // import logo from "../../logo.svg";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "../../pages/Home";
-import Bootcamp from "../../pages/bootcamp";
+import Portfolio from "../../pages/Portfolio";
+import Bootcamp from "../../pages/Bootcamp";
 import "./App.css";
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       {/* </nav> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
-        {/* <Route path="/portfolio" element={<Portfolio />} /> */}
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/bootcamp" element={<Bootcamp />} />
         {/* <Route path="/sports" element={<Sports />} /> */}
       </Routes>

@@ -113,6 +113,7 @@
   flex-direction: row;
   align-items: var(--center);
   justify-content: var(--center);
+  margin-left: -35px;
 }
 
 .bottomofsiteSocials .icon {
@@ -153,6 +154,13 @@
   margin-top: 14px;
 }
 
+.centered {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -166,9 +174,29 @@
   }
 }
 
+/* Bootcamp page */
+
+.bootcamp-content {
+  background-color: var(--primary-background-color);
+  height: 65.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio-content {
+  background-color: var(--primary-background-color);
+  height: 65.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 /* Scrollbar nonsense */
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
@@ -176,4 +204,4 @@
 }
 ::-webkit-scrollbar-thumb {
   background: blue;
-}
+} */
