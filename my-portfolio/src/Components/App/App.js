@@ -11,18 +11,15 @@ function App() {
       {/* <nav className="navbar"> */}
       <header className="App-header">
         <div className="NavBar">
-          <div className="NavContents"><Link to="/">Home</Link></div>
-          <div className="NavContents"><Link to="/portfolio">Portfolio</Link></div>
-          <div className="NavContents"><Link to="/bootcamp">Bootcamp</Link></div>
-          {/* <div className="NavContents"><Link to="/sports">Sports</Link></div> */}
+          <div><Link className="NavContents" to="/">Home</Link></div>
+          <div><Link className="NavContents" to="/portfolio">Portfolio</Link></div>
+          <div><Link className="NavContents" to="/bootcamp">Bootcamp</Link></div>
         </div>
       </header>
-      {/* </nav> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/bootcamp" element={<Bootcamp />} />
-        {/* <Route path="/sports" element={<Sports />} /> */}
       </Routes>
     </>
   );

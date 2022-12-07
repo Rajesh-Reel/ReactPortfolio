@@ -3,6 +3,7 @@
   --primary-background-color: aquamarine;
   --center: center;
   --border-style: groove;
+  --text-color: white;
   /* border-style: ; */
 }
 
@@ -34,7 +35,7 @@
   /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--text-color);
 }
 
 .NavBar {
@@ -45,8 +46,14 @@
   /* justify-content: center; */
   justify-content: space-evenly;
 }
+
 .NavContents:hover {
   text-decoration: underline;
+}
+
+.NavContents {
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 /*  Section Components */
@@ -177,21 +184,60 @@
 /* Bootcamp page */
 
 .bootcamp-content {
+  color: var(--text-color);
   background-color: var(--primary-background-color);
   height: 65.5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  font-size: calc(10px + 2vmin);
 }
 
 .portfolio-content {
+  color: var(--text-color);
   background-color: var(--primary-background-color);
   height: 65.5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  /* font-size: calc(10px + 2vmin); */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  /* font-size: 18px; */
+  font-size: calc(10px + 2vmin);
+
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
 }
 
 /* Scrollbar nonsense */
