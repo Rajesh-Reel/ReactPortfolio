@@ -192,6 +192,9 @@
   justify-content: center;
   text-align: center;
   font-size: calc(10px + 2vmin);
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  padding: 0% 10%;
 }
 
 .portfolio-content {
