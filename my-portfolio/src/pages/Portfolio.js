@@ -40,3 +40,11 @@ function Portfolio() {
 }
 
 export default Portfolio;
+
+/*
+slide one - medi-check
+slide two? - wellness check from week 9
+slide - react todo list
+slide - etch a sketch
+slide - tip calculator
+*/

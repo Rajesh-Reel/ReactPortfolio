@@ -58,7 +58,7 @@ function Footer() {
           </a>
         </ul>
         {/* <p>Legal jargon here</p> */}
-        <p className="centered">© 2022 Rajesh Reel</p>
+        <p className="centered">© 2023 Rajesh Reel</p>
         {/* <p>All rights copyright trademark blah</p>
         <p>SiteMap TODO</p> */}
         <br />
