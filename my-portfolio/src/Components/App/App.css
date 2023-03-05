@@ -74,9 +74,9 @@
 }
 
 .imageOfMe {
-  height: 500px;
+  height: 400px;
   width: auto;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border-color: black;
   border-style: var(--border-style);
   /* align-items: center;
@@ -187,7 +187,7 @@
   color: var(--text-color);
   background-color: var(--primary-background-color);
   height: 65.5vh;
-  display: flex;
+  display: inline-table;
   flex-direction: column;
   justify-content: center;
   text-align: center;

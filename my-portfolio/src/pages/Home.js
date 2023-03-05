@@ -11,7 +11,7 @@ function Home() {
         <br />
         <div className="ColumnsForIntro">
           <div className="ColumnLeft">
-            <h1>Hi, I am Rajesh,</h1>
+            <h1>Welcome, I am Rajesh,</h1>
             <p>I used to push pills and now I git push</p>
             <p>Having worked in the pharmaceutical industry I am...</p>
           </div>
@@ -39,7 +39,7 @@ function Home() {
               imageUrl="https://allnvysbhq.cloudimg.io/v7/www.projectsmart.co.uk/img/project.png"
             />
           </div>
-          <p>Link to Projects page route</p>
+          {/* <p>Link to Projects page route</p> */}
           <br />
         </div>
       </main>
