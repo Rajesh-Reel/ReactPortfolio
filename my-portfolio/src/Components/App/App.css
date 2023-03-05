@@ -64,7 +64,7 @@
 /* Main Components */
 .App-main {
   background-color: var(--primary-background-color);
-  min-height: 120vh;
+  min-height: 65.5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,9 +134,8 @@
   line-height: 3.5rem;
   margin: 0 0.5rem;
   text-align: var(--center);
-  flex-direction: row;
-  align-items: var(--center);
-  justify-content: var(--center);
+  transition: 0.25s;
+  animation: ease-in;
 }
 
 .bottomofsiteSocials .icon:hover {

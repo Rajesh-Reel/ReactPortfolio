@@ -39,7 +39,6 @@ function Home() {
               imageUrl="https://allnvysbhq.cloudimg.io/v7/www.projectsmart.co.uk/img/project.png"
             />
           </div>
-          {/* <p>Link to Projects page route</p> */}
           <br />
         </div>
       </main>
