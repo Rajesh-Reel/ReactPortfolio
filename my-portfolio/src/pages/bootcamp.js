@@ -1,4 +1,4 @@
-import "../Components/App/App.css";
+// import "../Components/App/App.css";
 import Footer from "../Components/Footer/Footer";
 
 function Bootcamp() {
