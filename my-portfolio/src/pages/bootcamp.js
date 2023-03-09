@@ -1,5 +1,7 @@
 // import "../Components/App/App.css";
-import Footer from "../Components/Footer/Footer";
+import Footer from "../Components/Footer/Footer.js";
+
+//note this page is currenly on github as bootcamp.js and not Bootcamp.js
 
 function Bootcamp() {
     return(
