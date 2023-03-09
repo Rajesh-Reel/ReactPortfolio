@@ -5,8 +5,8 @@ function Cards({ title, body, imageUrl, projectUrl, githubUrl }) {
   return (
     <div className="card-container">
       <div className="image-container">
-        <img src={imageUrl} alt="" />
-        "Card Divs"
+        <img src={imageUrl} width="350px" height="300px" alt="" />
+        {/* "Card Divs" */}
       </div>
       <div className="card-content">
         <div className="card-title">
@@ -17,10 +17,9 @@ function Cards({ title, body, imageUrl, projectUrl, githubUrl }) {
         </div>
       </div>
 
-      <div className="buttony">
-        {/* need to add <a></a> tag with href to project url */}
+      {/* <div className="buttony">
         <button className="buttonyText">More ...</button>
-      </div>
+      </div> */}
     </div>
   );
 }

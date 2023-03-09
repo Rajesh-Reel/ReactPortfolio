@@ -1,4 +1,6 @@
 import imageOfMe from "../imageOfMe.jpg";
+import imageOfMedi from "../imageOfMedi.png";
+import imageOfToDo from "../imageOfToDo.png"
 import "../Components/App/App.css";
 import Cards from "../Components/Cards/Cards.js";
 import Footer from "../Components/Footer/Footer";
@@ -24,20 +26,22 @@ function Home() {
           <br />
           <div className="CardDivs">
             <Cards
-              title="Project One"
+              title="Medi-Check"
               body="Here lies the body of my div card where I explain my project and showcase my tech stack"
-              imageUrl="https://allnvysbhq.cloudimg.io/v7/www.projectsmart.co.uk/img/project.png"
+              imageUrl={imageOfMedi}
+              // https://medi-check.netlify.app/
             />
             <Cards
-              title="Project Two"
+              title="To Go List"
               body="Here lies the body of my div card where I explain my project and showcase my tech stack"
-              imageUrl="https://allnvysbhq.cloudimg.io/v7/www.projectsmart.co.uk/img/project.png"
+              imageUrl={imageOfToDo}
+              // https://main--deluxe-begonia-5fc1b1.netlify.app/
             />
-            <Cards
+            {/* <Cards
               title="Project Three"
               body="Here lies the body of my div card where I explain my project and showcase my tech stack"
               imageUrl="https://allnvysbhq.cloudimg.io/v7/www.projectsmart.co.uk/img/project.png"
-            />
+            /> */}
           </div>
           <br />
         </div>

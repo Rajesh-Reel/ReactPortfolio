@@ -4,9 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import imageOfToDo from "../imageOfToDo.png"
 import imageOfMedi from "../imageOfMedi.png"
-
+import imageOfToDo from "../imageOfToDo.png"
 import { Pagination, Navigation } from "swiper";
 
 function Portfolio() {
