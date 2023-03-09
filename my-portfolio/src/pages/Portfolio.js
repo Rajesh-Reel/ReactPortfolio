@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import imageOfToDo from "../imageOfToDo.png"
+import imageOfMedi from "../imageOfMedi.png"
 
 import { Pagination, Navigation } from "swiper";
 
@@ -20,12 +22,14 @@ function Portfolio() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                    <img src="https://allnvysbhq.cloudimg.io/v7/www.projectsmart.co.uk/img/project.png" alt="project"/>
+                    {/* <img src="https://allnvysbhq.cloudimg.io/v7/www.projectsmart.co.uk/img/project.png" alt="project"/> */}
+                    <img src={imageOfMedi} className="imageOfMedi" alt="medicheck" />
                     <br/>
                     Slide 1 - Medi-Check
                     </SwiperSlide>
                     <SwiperSlide>
-                    <img src="https://allnvysbhq.cloudimg.io/v7/www.projectsmart.co.uk/img/project.png" alt="project"/>
+                    {/* <img src="https://allnvysbhq.cloudimg.io/v7/www.projectsmart.co.uk/img/project.png" alt="project"/> */}
+                    <img src={imageOfToDo} className="imageOfToDo" alt="todolist" />
                     <br/>
                     Slide 2 - To Go List
                     </SwiperSlide>

@@ -90,6 +90,16 @@
   box-shadow: 0px 0px 15px 0px;
 }
 
+.imageOfToDo {
+  height: 400px;
+  width: auto;
+}
+
+.imageOfMedi {
+  height: 400px;
+  width: auto;
+}
+
 .ColumnsForIntro {
   display: flex;
   flex-direction: row;
