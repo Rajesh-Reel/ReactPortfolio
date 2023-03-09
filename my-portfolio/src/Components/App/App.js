@@ -2,7 +2,8 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "../../pages/Home";
 import Portfolio from "../../pages/Portfolio";
-import Bootcamp from "../../pages/Bootcamp";
+// import Bootcamp from "../../pages/Bootcamp";
+import Bootcamp from "../../pages/bootcamp";
 import "./App.css";
 
 function App() {
