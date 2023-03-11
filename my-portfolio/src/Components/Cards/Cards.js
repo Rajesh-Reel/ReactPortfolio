@@ -15,6 +15,9 @@ function Cards({ title, body, imageUrl, projectUrl, githubUrl }) {
         <div className="card-body">
           <p>{body}</p>
         </div>
+        <div className="githubUrl">
+          <a href={githubUrl}><p>Github</p></a>
+        </div>
       </div>
 
       {/* <div className="buttony">
