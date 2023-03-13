@@ -29,15 +29,15 @@ function Home() {
               title="Medi-Check"
               body="Here lies the body of my div card where I explain my project and showcase my tech stack"
               imageUrl={imageOfMedi}
+              projectUrl="https://medi-check.netlify.app/"
               githubUrl="https://github.com/SchoolOfCode/final-project_front-end-five-guys"
-              // https://medi-check.netlify.app/
             />
             <Cards
               title="To Go List"
               body="Here lies the body of my div card where I explain my project and showcase my tech stack"
               imageUrl={imageOfToDo}
+              projectUrl="https://main--deluxe-begonia-5fc1b1.netlify.app/"
               githubUrl="https://github.com/Rajesh-Reel/w7-react-todo"
-              // https://main--deluxe-begonia-5fc1b1.netlify.app/
             />
             {/* <Cards
               title="Project Three"

@@ -16,7 +16,12 @@ function Cards({ title, body, imageUrl, projectUrl, githubUrl }) {
           <p>{body}</p>
         </div>
         <div className="githubUrl">
-          <a href={githubUrl}><p>Github</p></a>
+          <a href={projectUrl}>
+            <p>Live</p>
+          </a>
+          <a href={githubUrl}>
+            <p>Github</p>
+          </a>
         </div>
       </div>
 
